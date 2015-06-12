@@ -1,6 +1,6 @@
 {
   "name": "gl-texture2d-read-float",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read out the contents of a floating-point gl-texture2d",
   "main": "index.js",
   "license": "MIT",
