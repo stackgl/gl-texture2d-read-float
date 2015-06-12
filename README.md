@@ -5,8 +5,9 @@
 Read out the contents of a floating-point
 [gl-texture2d](http://github.com/stackgl/gl-texture2d).
 
-This will *eventually* be supported natively in WebGL, but this fills that need
-until then!
+This will *eventually* be supported natively in WebGL
+[(it's listed in the OpenGL ES 3 spec)](https://www.khronos.org/opengles/sdk/docs/man31/html/glReadPixels.xhtml),
+but this fills that need until then!
 
 ## Usage
 
