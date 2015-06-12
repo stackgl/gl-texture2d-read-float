@@ -1,0 +1,51 @@
+{
+  "name": "gl-texture2d-read-float",
+  "version": "1.0.0",
+  "description": "Read out the contents of a floating-point gl-texture2d",
+  "main": "index.js",
+  "license": "MIT",
+  "browserify": {
+    "transform": [
+      "glslify"
+    ]
+  },
+  "scripts": {
+    "test": "browserify test.js | tap-closer | smokestack | tap-spec",
+    "hihat": "hihat test.js -p tap-dev-tool"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {
+    "a-big-triangle": "^1.0.2",
+    "es6-symbol": "^2.0.1",
+    "gl-fbo": "^2.0.5",
+    "gl-shader": "^4.0.4",
+    "glsl-read-float": "^1.1.0",
+    "glslify": "^2.1.2"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "gl-texture2d": "^2.0.9",
+    "hihat": "0.0.8",
+    "ndarray": "^1.0.18",
+    "smokestack": "^3.3.0",
+    "tap-closer": "^1.0.0",
+    "tap-dev-tool": "^1.2.0",
+    "tap-spec": "^4.0.0",
+    "tape": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stackgl/gl-texture2d-read-float.git"
+  },
+  "keywords": [
+    "ecosystem:stackgl"
+  ],
+  "homepage": "https://github.com/stackgl/gl-texture2d-read-float",
+  "bugs": {
+    "url": "https://github.com/stackgl/gl-texture2d-read-float/issues"
+  }
+}
