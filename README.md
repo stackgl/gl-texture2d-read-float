@@ -28,7 +28,7 @@ const Texture2d = require('gl-texture2d')
 const baboon    = require('baboon-image')
 const assert    = require('assert')
 
-const texture  = baboon(gl, baboon)
+const texture  = Texture2d(gl, baboon)
 
 read(texture, function(err, data) {
   if (err) throw err
